@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@media all and (max-width: 768px) {
+  /* ------------------------------------------------
+  * ヘッダー
+  -------------------------------------------------- */
+  header div.container div.header_upper {
+    flex-flow: column;
+  }
+  header div.container div.header_upper div.header_right {
+    margin-top: 0;
+  }
+  header div.container div.header_upper div.header_right p.phone_number {
+    margin-top: 5px;
+  }
+  header div.container nav.header_lower ul {
+    flex-wrap: wrap;
+  }
+  header div.container nav.header_lower ul li {
+    width: 50%;
+    border-radius: 5px;
+    height: 90px;
+  }
+  header div.container nav.header_lower ul li a {
+    font-size: 16px;
+  }
+  header div.container nav.header_lower ul li a span {
+    font-size: 12px;
+  }
+  /* ------------------------------------------------
+  * メイン
+  -------------------------------------------------- */
+  div.main div.container {
+    flex-flow: column-reverse;
+    width: 100%;
+    /*-- --- メイン左側 --- --*/
+    /*-- --- メイン右側 --- --*/
+  }
+  div.main div.container div.main_left {
+    margin: 0 auto;
+    width: 100%;
+    margin-top: 40px;
+  }
+  div.main div.container div.main_right {
+    margin: 0 auto;
+    width: 100%;
+  }
+  div.main div.container div.main_right div.update {
+    margin: 0;
+  }
+  div.main div.container div.main_right div.update li dl {
+    flex-flow: column;
+  }
+  div.main div.container div.main_right div.update li dl dt {
+    margin-bottom: 10px;
+  }
+  /* ------------------------------------------------
+  * フッター
+  -------------------------------------------------- */
+  footer div.container ul {
+    flex-wrap: wrap;
+  }
+  footer div.container div.sub_title {
+    flex-flow: column;
+    padding-bottom: 0;
+  }
+  footer div.container div.copyright p {
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
